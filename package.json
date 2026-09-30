@@ -1,0 +1,11 @@
+{
+  "name": "namecraft",
+  "version": "1.0.0",
+  "description": "SaaS name generator and real-time domain availability & wholesale pricing checker powered by Cloudflare Registrar API",
+  "author": "Preetam Rathod",
+  "license": "MIT",
+  "scripts": {
+    "dev": "wrangler pages dev . --compatibility-date=2024-09-01",
+    "deploy": "wrangler pages deploy . --project-name=name --branch=main"
+  }
+}
